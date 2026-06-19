@@ -1,6 +1,4 @@
-# configure.sh  packages_and_updates.sh  services.sh  users.sh
-trap "exit" INT # makes CTRL+C exit out of all scripts
-
+# 1. configure.sh  2. packages_and_updates.sh  3. services.sh  4. users.sh
 step_one=/root-setup/steps/configure.sh
 step_two=/root-setup/steps/packages_and_updates.sh
 step_three=/root-setup/steps/services.sh
