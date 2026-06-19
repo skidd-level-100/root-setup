@@ -1,0 +1,1 @@
+app-misc/fastfetch -X dbus opengl wayland -chafa -ddcutil -drm -efl -elf -gnome -imagemagick lua -opencl pulseaudio sqlite -test vaapi -vdpau -vulkan -xcb -xrandr

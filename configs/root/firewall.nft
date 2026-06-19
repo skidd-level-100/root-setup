@@ -1,0 +1,16 @@
+flush ruleset
+
+table inet filter {
+	chain input {
+
+		type filter hook input priority filter;  policy accept;
+
+		ct state invalid drop
+		ct state established,related counter accept
+		#iif eno1 accept
+		iif lo accept
+		counter drop
+
+	}
+
+}

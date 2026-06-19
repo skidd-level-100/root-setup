@@ -1,0 +1,4 @@
+sys-kernel/linux-firmware savedconfig
+sys-kernel/installkernel -* efistub
+sys-kernel/gentoo-kernel-bin
+sys-kernel/gentoo-sources -experimental
