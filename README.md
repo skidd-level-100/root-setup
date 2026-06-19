@@ -1,9 +1,12 @@
 sets up my root uploading it for ez git pulling later, not really for general use but hey do what you want to idc.
 
-configure.sh
-packages_and_updates.sh
-services.sh
-users.sh
+
+steps in order: 
+in steps/ :
+    configure.sh
+    packages_and_updates.sh
+    services.sh
+    users.sh
 
 current_step=1 bash root-setup.sh
 
