@@ -7,7 +7,7 @@ in steps/ :
     services.sh
     users.sh
 
-current_step=1 bash root-setup.sh
+bash root-setup.sh $start_step
 
 # things to edit
 
@@ -29,3 +29,6 @@ cp -r configs/* / # run if you change things in configs, but you should change t
 bash packages_and_updates.sh # run until emerge stops whining
 
 dispatch-conf # apply changes from emerges whining
+
+when done:
+bash root-setup.sh 3

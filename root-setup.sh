@@ -1,9 +1,24 @@
 # 1. configure.sh  2. packages_and_updates.sh  3. services.sh  4. users.sh
-step_one=/root-setup/steps/configure.sh
-step_two=/root-setup/steps/packages_and_updates.sh
-step_three=/root-setup/steps/services.sh
-step_four=/root-setup/steps/users.sh
+step_one=$PWD/steps/configure.sh
+step_two=$PWD/steps/packages_and_updates.sh
+step_three=$PWD/steps/services.sh
+step_four=$PWD/steps/users.sh
 
+# make sure steps folder exist
+if [ ! -e "$PWD/steps" ]; then
+
+	echo "run in proper directory!"
+	exit
+
+fi
+# make sure your root
+if [ "$user" != "root" ]; then
+
+	echo "run as root!"
+	exit
+fi
+# makes sure you have set the current step
+current_step=$1
 if [ -z $current_step ]; then
 	echo "set current_step varable to 1 to start" 
 	exit
