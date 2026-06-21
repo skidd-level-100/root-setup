@@ -26,7 +26,7 @@ bash steps/configure.sh # run once, syncs/adds repos and runs 'cp -r configs/* /
 
 cp -r configs/* / # run if you change things in configs, but you should change things in /etc/ and then copy those back for safe keeping here
 
-bash packages_and_updates.sh # run until emerge stops whining
+bash steps/packages_and_updates.sh # run until emerge stops whining
 
 dispatch-conf # apply changes from emerges whining
 
