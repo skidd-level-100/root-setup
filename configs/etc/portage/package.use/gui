@@ -1,3 +1,2 @@
 sys-auth/seatd server
-gui-wm/sway X swaybar swaynag -tray -wallpapers
 gui-apps/waybar pulseaudio backlight tray upower network 
