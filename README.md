@@ -11,11 +11,11 @@ bash root-setup.sh $start_step
 
 # things to edit
 
-/root-setup/setup-settings.sh -> username, hostname, packages
-/root-setup/configs/etc/inittab -> autlogin for your user or diable autologin
-/root-setup/configs/etc/portage/package.use/00* -> for your hardware using cpuid2cpuflags and gentoo wiki for VIDEO_CARDS
-/root-setup/configs/etc/portage/package.use/kernel -> my setup is non-standard and un documented in the gentoo handbook, do your own flags.
-/root-setup/configs/etc/portage/savedconfig -> delete this (unless your firmware matches mine)
+- /root-setup/setup-settings.sh -> username, hostname, packages
+- /root-setup/configs/etc/inittab -> autlogin for your user or diable autologin
+- /root-setup/configs/etc/portage/package.use/00* -> for your hardware using cpuid2cpuflags and gentoo wiki for VIDEO_CARDS
+- /root-setup/configs/etc/portage/package.use/kernel -> my setup is non-standard and un documented in the gentoo handbook, do your own flags.
+- /root-setup/configs/etc/portage/savedconfig -> delete this (unless your firmware matches mine)
 
 
 # tips
