@@ -30,5 +30,8 @@ bash steps/packages_and_updates.sh # run until emerge stops whining
 
 dispatch-conf # apply changes from emerges whining
 
-when done:
-bash root-setup.sh 3
+bash root-setup.sh 3 # when done configuring
+
+# if your config is perfect
+
+bash root-setup.sh 1
