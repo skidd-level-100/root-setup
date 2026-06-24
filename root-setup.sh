@@ -12,7 +12,7 @@ if [ ! -e "$PWD/steps" ]; then
 
 fi
 # make sure your root
-if [ "$user" != "root" ]; then
+if [ "$USER" != "root" ]; then
 
 	echo "run as root!"
 	exit
@@ -20,7 +20,9 @@ fi
 # makes sure you have set the current step
 current_step=$1
 if [ -z $current_step ]; then
-	echo "set current_step varable to 1 to start" 
+	echo """set current_step varable to 1 to start:
+	bash root-setup.sh 1
+	""" 
 	exit
 fi
 
