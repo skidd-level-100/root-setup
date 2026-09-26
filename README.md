@@ -1,4 +1,4 @@
-sets up my root uploading it for ez git pulling later, not really for general use but hey do what you want to idc.
+sets up my root. I uploaded it for ez git pulling later, not really for public use but hey do what you want to idc.
 
 steps in order: 
 in steps/ :
