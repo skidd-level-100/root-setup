@@ -34,7 +34,7 @@ fi
 current_step=2
 
 if [ $current_step == 2 ]; then
-       	echo "Step two!"
+    echo "Step two!"
 	bash "$step_two"
 fi
 
