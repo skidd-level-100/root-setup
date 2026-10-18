@@ -2,7 +2,7 @@
 kernel_pkgs="sys-kernel/gentoo-sources sys-kernel/ugrd"
 kernel_comp="llvm-core/lld llvm-core/clang"
 gui_pkgs="gui-wm/hyprland gui-libs/xdg-desktop-portal-hyprland sys-apps/xdg-desktop-portal-gtk gui-libs/hyprland-guiutils sys-auth/hyprpolkitagent gui-apps/hyprshot gui-apps/hyprpwcenter gui-apps/hyprpaper gui-apps/hyprmoncfg gui-apps/hyprlock gui-apps/waybar gui-apps/wofi gui-apps/waybar gui-apps/mako xfce-base/thunar xfce-extra/thunar-archive-plugin app-arch/file-roller gui-apps/mako media-video/mpv media-gfx/imv gui-apps/foot gui-apps/wf-recorder"
-tui_pkgs="net-im/profanity net-irc/irssi"
+tui_pkgs="net-im/profanity net-irc/irssi sys-process/btop"
 sound_pkgs="media-video/wireplumber"
 networking_pkgs="net-misc/networkmanager net-p2p/syncthing net-p2p/yggdrasil-go net-firewall/nftables"
 tools_pkgs="sys-fs/cryptsetup app-portage/eix sys-power/tlp app-admin/eclean-kernel net-misc/chrony app-shells/zsh app-shells/zsh-completions app-containers/podman app-containers/podman-compose sys-apps/flatpak gui-apps/wl-clipboard xfce-base/thunar-volman dev-util/rocm-smi dev-python/pip net-fs/sshfs"
