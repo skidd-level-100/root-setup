@@ -1,0 +1,4 @@
+net-firewall/nftables ~amd64
+net-p2p/syncthing ~amd64
+net-misc/networkmanager ~amd64
+net-misc/openssh ~amd64

@@ -1,0 +1,4 @@
+sys-devel/* ~amd64
+llvm*/* ~amd64
+dev-lang/* ~amd64
+
