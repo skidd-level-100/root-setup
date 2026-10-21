@@ -1,4 +1,6 @@
 sys-devel/* ~amd64
 llvm*/* ~amd64
 dev-lang/* ~amd64
-
+dev-util/* ~amd64
+dev-libs/* ~amd64
+dev-build/* ~amd64
